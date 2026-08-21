@@ -214,7 +214,8 @@ def run_kriging_baseline():
         fig.savefig(OUTPUT_DIR / 'figB1_kriging_baseline.png')
     print('  Saved figB1_kriging_baseline')
 
-    return {'gsp': gsp_vals, 'kriging_geo': krig_geo_mean, 'idw': idw_mean}
+    return {'gsp': gsp_vals, 'kriging_geo': krig_geo_mean,
+            'kriging_spec': krig_spec_mean, 'idw': idw_mean}
 
 
 # ============================================================
@@ -607,7 +608,6 @@ if __name__ == '__main__':
     print("=" * 60)
     print("FULL-PAPER ENRICHMENT EXPERIMENTS")
     print("=" * 60)
-
     res1 = run_kriging_baseline()
     res2 = run_mlp_gcn_baseline()
     res3 = run_weight_ablation()
