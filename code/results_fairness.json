@@ -1,0 +1,60 @@
+{
+  "N": 1025,
+  "n_draws": 10,
+  "operators": {
+    "O1_line": {
+      "30": {
+        "B": 10,
+        "gsp_designed": 0.052764819299709546,
+        "idw_designed": 0.1391035639992332,
+        "gsp_random": 0.524739044962386,
+        "idw_random": 0.07343698704890264,
+        "gsp_beats_idw_same_set": 6
+      },
+      "100": {
+        "B": 33,
+        "gsp_designed": 0.04495280198321631,
+        "idw_designed": 0.06897815268060031,
+        "gsp_random": 0.5187985103894804,
+        "idw_random": 0.05048148230930468,
+        "gsp_beats_idw_same_set": 6
+      }
+    },
+    "O2_admittance": {
+      "30": {
+        "B": 10,
+        "gsp_designed": 0.06786476787767871,
+        "idw_designed": 0.16643915486406016,
+        "gsp_random": 0.608349135744146,
+        "idw_random": 0.11198921258640451,
+        "gsp_beats_idw_same_set": 6
+      },
+      "100": {
+        "B": 33,
+        "gsp_designed": 0.039594987224989345,
+        "idw_designed": 0.11712740797638596,
+        "gsp_random": 3900509634.411026,
+        "idw_random": 0.09562525394297768,
+        "gsp_beats_idw_same_set": 6
+      }
+    },
+    "O3_zbus": {
+      "30": {
+        "B": 10,
+        "gsp_designed": 0.04676759109046651,
+        "idw_designed": 0.08111063614753702,
+        "gsp_random": 0.23077914514516967,
+        "idw_random": 0.05996641351974348,
+        "gsp_beats_idw_same_set": 6
+      },
+      "100": {
+        "B": 33,
+        "gsp_designed": 0.04032948102885125,
+        "idw_designed": 0.08841973335846441,
+        "gsp_random": 581659.6709338115,
+        "idw_random": 0.040533574040707544,
+        "gsp_beats_idw_same_set": 6
+      }
+    }
+  }
+}
